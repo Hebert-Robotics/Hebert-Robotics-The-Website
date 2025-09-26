@@ -1,0 +1,317 @@
+*{margin :0;}
+
+body{
+zoom: 67%;
+}
+
+
+#divMenuBlock{
+width: 100%;
+height: 115px;
+background-color: #5ce1e6;
+display: flex;
+}
+
+#divLogo{
+    width: 7%;
+    height: 120px;
+}
+
+#imageHebertRoboticsLogo{
+    height: 120px;
+    width: 90%;
+}
+
+#divMenuOptions{
+    width: 92%;
+    height: 115px;
+    display: flex;
+    align-items: center;
+    font-family: "Silkscreen";
+}
+h4{
+    font-size: 30px;
+    margin-right: 50px;
+    margin-left: 50px;
+    text-shadow: 2px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    transition: 0.4s;
+}
+
+h4:hover{
+    font-size: 35px;
+    transition: 0.5s;
+    margin-right: 50px;
+    margin-left: 50px; 
+    color: white;
+}
+
+#homePainel{
+    width: 100%;
+    height: 100vh;
+    background-image: url(Hebert\ Robotics-painel.png);
+}
+
+#imagePainel{
+    width: 100px;
+    height: 10vh;
+}
+
+#finalblock{
+    width: 100%;
+    height: 115px;
+    display: flex;
+    align-items: center;
+    font-family: "distillery";
+    position: absolute;
+    top: 120vh;
+    background-color: #5ce1e6;
+    font-family: "distillery";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 80px;
+}
+
+@font-face {
+    font-family: "distillery";
+    src: url(distillery-strong.ttf);
+}
+
+#division1{
+width: 50%;
+height: 90vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#division2{
+width: 50%;
+height: 90vh;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#titleAbout{
+    width: 100%;
+    height: 20%;
+    font-family: "distillery";
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#divTextAbout{
+    width: 100%;
+    height: 30vh;
+    animation-duration: 3s;
+  animation-name: slide;
+
+}
+
+h5{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin-left: 40px;
+    margin-right: 40px;
+    animation-duration: 3s;
+  animation-name: opacity1;
+}
+
+@keyframes opacity1 {
+  from {
+   
+    opacity: 0%;
+  }
+
+  to {
+    opacity: 100%;
+  }
+}
+
+#HebertRoboticsImage{
+    position: absolute;
+    top:28vh;
+    animation-duration: 3s;
+    animation-name: imageHR;
+}
+
+
+#containContainer{
+  width: 100%;
+  height: 50vh;
+}
+
+
+#containContainer2{
+  width: 50%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation-name: produto;
+  animation-duration: 3s;
+  position: absolute;
+  left: 20%;
+  
+}
+
+#miniSpace{
+    width: 100%;
+  height: 20vh;
+}
+
+@keyframes produto {
+  from {
+   
+   left: -2%;
+   opacity: 0%;
+  }
+
+  to {
+   left: 20%;
+   opacity: 100%;
+  }
+}
+
+#buttonComprar{
+  width: 300px;
+  height: 80px;
+  background-color: #5ce1e6;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+justify-content: center;
+ font-family: "distillery";
+ font-size: 40px;
+ 
+}
+
+#buttonComprar:hover{
+  width: 300px;
+  height: 80px;
+  background-color: black;
+  border-radius: 100px;
+   display: flex;
+  align-items: center;
+justify-content: center;
+ font-family: "distillery";
+ font-size: 40px;
+ color: #5ce1e6;
+ transition: 0.4s;
+
+}
+
+#BlocoProduto{
+  width: 100%;
+  height: 100%;
+}
+
+#divDescricaoModelo{
+ display: flex;
+ justify-items: end;
+ align-items: center;
+ width: 100%;
+ font-size: 20px;
+}
+
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 0.5fr);
+    grid-template-rows: repeat(6, 0.5fr);
+    gap: 400px;
+}
+
+.div2{
+ display: flex;
+align-items: center;
+flex-direction: column;
+width: 40px;
+}
+
+#ContainerTitle{
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 140px;
+  font-family: "distillery";
+  animation-name: opacity1;
+  animation-duration: 3s;
+  flex-direction: column;
+}
+
+
+#buttonCults{
+  width: 300px;
+  height: 80px;
+  background-color: purple;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+justify-content: center;
+ font-family: "distillery";
+ font-size: 40px;
+ margin: 40px;
+ box-shadow: 20px 16px rgb(229, 133, 229);
+
+ 
+}
+
+#buttonCults:hover{
+  width: 350px;
+  height: 90px;
+  background-color: black;
+  border-radius: 100px;
+   display: flex;
+  align-items: center;
+justify-content: center;
+ font-family: "distillery";
+ font-size: 45px;
+ color: #5ce1e6;
+ transition: 0.4s;
+ margin: 40px;
+ box-shadow: 20px 16px rgb(229, 133, 229);
+
+
+}
+
+/* Smartphones pequenos */
+@media (max-width: 480px) {
+  body{
+    zoom: 15%;
+  }
+}
+
+/* Smartphones médios */
+@media (min-width: 481px) and (max-width: 768px) {
+  body{
+    zoom: 15%;
+  }
+}
+
+/* Smartphones grandes */
+@media (min-width: 769px) and (max-width: 1024px) {
+  body{
+    zoom: 20%;
+  }
+}

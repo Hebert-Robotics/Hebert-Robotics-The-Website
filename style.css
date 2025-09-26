@@ -1,0 +1,117 @@
+*{margin :0;}
+
+body{
+    background-color: #5ce1e6;
+    zoom: 67%;
+}
+#divMenuBlock{
+width: 100%;
+height: 115px;
+background-color: #5ce1e6;
+display: flex;
+}
+
+#divLogo{
+    width: 7%;
+    height: 120px;
+}
+
+#imageHebertRoboticsLogo{
+    height: 120px;
+    width: 90%;
+}
+
+#divMenuOptions{
+    width: 92%;
+    height: 115px;
+    display: flex;
+    align-items: center;
+    font-family: "Silkscreen";
+}
+h4{
+    font-size: 30px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+     text-shadow: 2px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+h4:hover{
+    font-size: 35px;
+    transition: 0.5s;
+    margin-right: 50px;
+    margin-left: 50px; 
+    color: white;
+}
+
+#homePainel{
+    width: 100%;
+    height: 100vh;
+    background-image: url(Hebert\ Robotics-painel.png);
+}
+
+#imagePainel{
+    width: 100px;
+    height: 10vh;
+}
+
+#finalblock{
+    width: 100%;
+    height: 115px;
+    display: flex;
+    align-items: center;
+    font-family: "distillery";
+    position: absolute;
+    top: 120vh;
+    background-color: #5ce1e6;
+    font-family: "distillery";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 80px;
+}
+
+@font-face {
+    font-family: "distillery";
+    src: url(distillery-strong.ttf);
+}
+
+/* Smartphones pequenos */
+@media (max-width: 480px) {
+  body{
+    zoom: 15%;
+  }
+
+  #hebertRoboticsImage{
+    width: 100%;
+    height: 40vh;
+  }
+}
+
+/* Smartphones médios */
+@media (min-width: 481px) and (max-width: 768px) {
+  body{
+    zoom: 15%;
+  }
+
+  #hebertRoboticsImage{
+    width: 100%;
+    height: 40vh;
+  }
+}
+
+/* Smartphones grandes */
+@media (min-width: 769px) and (max-width: 1024px) {
+  body{
+    zoom: 15%;
+    
+  }
+  #hebertRoboticsImage{
+    width: 100%;
+    height: 250vh;
+  }
+}
